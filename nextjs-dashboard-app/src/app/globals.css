@@ -1,0 +1,44 @@
+:root {
+  --color-text: #000;
+  --color-bg: #f0f8ff;
+  --card-bg: #fff;
+  --nav-menu-bg: rgb(237, 234, 234);
+  --btn-bg: #eeeff1;
+  --btn-bg-one: #fff;
+  --td-even-color: #f9f9f9;
+  --input-bg: #fff;
+}
+
+[data-theme="dark"] {
+  --color-text: #7f7f7f;
+  --color-bg: rgb(31 41 55);
+  --card-bg: rgb(17 24 39);
+  --nav-menu-bg: rgb(24 24 27);
+  --btn-bg: rgb(39 39 42);
+  --btn-bg-one: #007fff;
+  --td-even-color: rgb(31 41 55);
+  --input-bg: rgb(31 41 55);
+}
+
+[data-theme="light"] {
+  --color-text: #000;
+  --color-bg: #f0f8ff;
+  --card-bg: #fff;
+  --nav-menu-bg: rgb(237, 234, 234);
+  --btn-bg: #eeeff1;
+  --btn-bg-one: #fff;
+  --td-even-color: #f9f9f9;
+  --input-bg: #fff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+a {
+  text-decoration: none;
+}

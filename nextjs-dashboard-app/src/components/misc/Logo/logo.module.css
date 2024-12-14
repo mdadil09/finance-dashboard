@@ -1,0 +1,56 @@
+.sidebar_logo {
+  margin-bottom: 0.5rem;
+  display: flex;
+  padding: 0.5rem;
+}
+
+.sidebar_logo_nav {
+  display: flex;
+  margin-left: 10px;
+}
+
+.logoOne {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.logoTwo {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #fff;
+  background-color: #1cac78;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #1cac78;
+}
+
+.logoOne_nav {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.logoTwo_nav {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #fff;
+  background-color: #1cac78;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #1cac78;
+}

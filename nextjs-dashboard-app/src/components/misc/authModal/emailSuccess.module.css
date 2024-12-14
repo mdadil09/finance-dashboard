@@ -1,0 +1,79 @@
+.card_email {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04); /* Tailwind's shadow-xl */
+  --tw-shadow-color: rgba(51, 51, 51, 0.05);
+  background-color: var(--card-bg);
+  padding: 20px;
+  border-radius: 8px;
+  width: 30vw;
+  height: auto;
+  margin-top: 20px;
+  position: absolute;
+  left: 35%;
+  top: 20%;
+}
+
+.card_top {
+  text-align: center;
+}
+
+.card_middle {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.text {
+  font-size: 13px;
+}
+
+.text_email {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.btn button {
+  background-color: #3b71ca;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  width: 90%;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.text_resend {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text_resend button {
+  background: none;
+  border: none;
+  color: #3b71ca;
+  cursor: pointer;
+}
+
+.backTO {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.backTO a {
+  color: #3b71ca;
+  font-size: 13px;
+  margin: 0;
+}
+
+@media screen and (max-width: 940px) {
+  .card_email {
+    width: 85%;
+    left: 2%;
+  }
+}

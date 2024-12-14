@@ -1,0 +1,79 @@
+.mainC {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+}
+
+.darkText {
+  display: flex;
+  justify-self: start;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.skeletonContainer {
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px 10px 0 10px;
+  background-color: #121212;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.skeletonHeader {
+  width: 60%;
+  height: 10px;
+  background-color: #7f7f7f;
+  border-radius: 4px;
+}
+
+.skeletonList {
+  display: flex;
+  flex-direction: column;
+}
+
+.skeletonItem {
+  width: 30%;
+  height: 10px;
+  background-color: #7f7f7f;
+  border-radius: 4px;
+}
+
+.sBox {
+  background-color: hsla(0, 100%, 100%, 0.05);
+  box-shadow:
+		/* offset-x | offset-y | blur-radius | spread-radius | color */ 0px
+      1px 1px 0px hsla(0, 0%, 0%, 0.14),
+    0px 2px 1px -1px hsla(0, 0%, 0%, 0.12), 0px 1px 3px 0px hsla(0, 0%, 0%, 0.2);
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.smallSkl {
+  width: 10%;
+  height: 18px;
+  background-color: #7f7f7f;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.hBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsla(0, 100%, 100%, 0.05);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 940px) {
+  .mainC {
+    width: 30%;
+    height: 25%;
+  }
+}

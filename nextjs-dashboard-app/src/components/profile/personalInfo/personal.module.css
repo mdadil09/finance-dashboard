@@ -1,0 +1,58 @@
+.card {
+  width: 96%;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.text {
+  margin-right: 6%;
+}
+
+.content h4 {
+  margin: 0;
+  font-size: 14px;
+  color: gray;
+}
+
+.content p {
+  margin: 8px 0 0 0;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 940px) {
+  .card {
+    width: 90%;
+  }
+  .content {
+    flex-wrap: wrap;
+  }
+
+  .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  .text p {
+    margin: 0 0 0 0;
+  }
+}

@@ -1,0 +1,94 @@
+.inb_headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h_left {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.h_left h1 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.inputSec input {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: none;
+  outline: none;
+  background: var(--input-bg);
+}
+
+.inputSec button {
+  padding: 8px;
+  background: none;
+  background: var(--input-bg);
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  border-left: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.sub_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions_btns {
+  margin-top: 30px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.action_btn {
+  margin-right: 15px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 5px 8px 5px 8px;
+  border-radius: 5px;
+}
+
+.icon_btn {
+  border: none;
+  background: none;
+  color: gray;
+  margin: 0;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 940px) {
+  .inputSec {
+    margin-right: 10px;
+  }
+
+  .pagination {
+    align-items: center;
+    margin-top: 6%;
+  }
+
+  .action_btn {
+    margin-right: 5px;
+    font-size: 14px;
+  }
+}

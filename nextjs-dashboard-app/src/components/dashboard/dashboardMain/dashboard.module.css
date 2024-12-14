@@ -1,0 +1,11 @@
+.dash_main {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 940px) {
+  .dash_main {
+    flex-wrap: wrap;
+  }
+}

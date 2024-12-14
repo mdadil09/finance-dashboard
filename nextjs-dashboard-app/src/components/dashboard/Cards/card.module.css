@@ -1,0 +1,117 @@
+.card_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_content {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04); /* Tailwind's shadow-xl */
+  --tw-shadow-color: rgba(51, 51, 51, 0.05);
+  background-color: var(--card-bg);
+  padding: 20px;
+  width: 278px;
+  border-radius: 8px;
+  margin-right: 2%;
+}
+
+.card_content_full {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04); /* Tailwind's shadow-xl */
+  --tw-shadow-color: rgba(51, 51, 51, 0.05);
+  background-color: var(--card-bg);
+  margin-right: 2%;
+  padding: 20px;
+  width: 334px;
+  border-radius: 8px;
+}
+
+.card_heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.card_heading h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 0;
+  font-size: 16px;
+  color: grey;
+  font-weight: 500;
+}
+
+.card_body {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.card_body_solid {
+  background-color: #daf4da;
+  color: #03c03c;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+.card_body p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.card_footer {
+  font-size: 16px;
+  color: grey;
+  font-weight: 500;
+}
+
+.upper_data {
+  display: flex;
+  background-color: grey;
+}
+
+@media screen and (max-width: 940px) {
+  .card_container {
+    flex-wrap: wrap;
+    margin-top: 60px;
+  }
+
+  .card_content_full {
+    width: 90%;
+    height: 20vh;
+    margin-bottom: 20px;
+  }
+
+  .card_heading h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 0;
+    font-size: 18px;
+    color: grey;
+    font-weight: 500;
+  }
+
+  .card_body {
+    display: flex;
+    align-items: center;
+    font-size: 42px;
+    margin-bottom: 15px;
+  }
+
+  .card_body p {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  .card_footer {
+    font-size: 24px;
+    color: grey;
+    font-weight: 500;
+  }
+}

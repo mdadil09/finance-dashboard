@@ -1,0 +1,81 @@
+/* Basic styling for the table */
+
+.table_container {
+  margin-top: 20px;
+}
+
+.table_container::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Handle */
+.table_container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+.table_container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  transition: width 0.5s ease;
+}
+
+.table th {
+  color: grey;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.table td {
+  padding: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.table tr:nth-child(even) {
+  background-color: var(--td-even-color);
+}
+
+.table button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.table button:hover {
+  background-color: #0056b3;
+}
+
+.table img {
+  height: 42px;
+  width: 52px;
+}
+
+@media screen and (max-width: 940px) {
+  .table {
+    width: 80%;
+    margin-left: 0;
+    font-size: 12px;
+  }
+
+  .table img {
+    width: 42px;
+  }
+}

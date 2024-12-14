@@ -1,0 +1,23 @@
+.pagination {
+  /* padding: 10px; */
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.pagination > span {
+  padding: 5px 10px;
+  /* border: 1px solid gray; */
+  cursor: pointer;
+}
+
+.pagination__selected {
+  background-color: #007fff;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination__disable {
+  opacity: 0;
+}

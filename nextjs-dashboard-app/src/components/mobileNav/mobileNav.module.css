@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Satisfy&display=swap");
+
+@media screen and (max-width: 940px) {
+  .sidebar_container {
+    font-family: sans-serif;
+  }
+
+  .sidebar_card {
+    height: 100%;
+    width: 100%;
+    max-width: 40%;
+    padding: 1rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04); /* Tailwind's shadow-xl */
+    --tw-shadow-color: rgba(51, 51, 51, 0.05);
+    background-color: var(--card-bg);
+    position: fixed;
+    z-index: 10;
+    overflow-y: auto;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .sidebar_menu {
+    font-size: 24x;
+  }
+
+  .menu {
+    display: flex;
+    cursor: pointer;
+    padding: 8px;
+    align-items: center;
+    background: none;
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  .menu:hover {
+    background-color: #edf9ed;
+    border-radius: 5px;
+  }
+
+  .menuHover {
+    display: flex;
+    cursor: pointer;
+    padding: 8px;
+    align-items: center;
+    background: none;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #edf9ed;
+    border-radius: 5px;
+  }
+
+  /* Navbar */
+}

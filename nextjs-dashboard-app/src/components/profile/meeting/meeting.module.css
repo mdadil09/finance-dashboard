@@ -1,0 +1,89 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.left h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.left p {
+  margin: 8px 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: grey;
+}
+
+.right button {
+  background-color: #3b71ca;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.right .btn {
+  background: none;
+  color: #3b71ca;
+  border: 1px solid #3b71ca;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.right .btn:hover {
+  background-color: #3b71ca;
+  color: white;
+}
+
+.meet {
+  display: flex;
+  justify-self: start;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 4%;
+  width: 30%;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  background-color: var(--card-bg);
+  border-radius: 8px;
+}
+
+.content h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: grey;
+}
+
+.content a {
+  text-decoration: none;
+  color: #3b71ca;
+}
+
+@media screen and (max-width: 940px) {
+  .meet {
+    flex-wrap: wrap;
+  }
+
+  .content {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 0%;
+  }
+}

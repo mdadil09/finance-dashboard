@@ -1,0 +1,11 @@
+.stats {
+  display: flex;
+  align-items: start;
+}
+
+@media screen and (max-width: 940px) {
+  .stats {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+}
